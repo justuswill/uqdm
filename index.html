@@ -102,7 +102,7 @@
         Example reconstructions from several traditional and neural codecs, chosen at roughly
         similar bitrates. At high bitrates, our UQDM method preserves details (e.g. shape and color pattern
         of the spider, or sharpness of the calligraphy) better than other neural codecs. Note that among the
-        methods considered here, only ours and CTC (Jeon et al., 2023) implement progressive coding.
+        methods considered here, only ours and CTC (<a href="https://arxiv.org/abs/2303.05715" target="_blank">Jeon et al., 2023</a>) implement progressive coding.
       </h2>
     </div>
   </div>
@@ -164,7 +164,7 @@
         <p>
           A progressive compression algorithm allows for lossy reconstructions with improving quality as more bits are sent, up till a lossless reconstruction. This results
           in variable-rate compression with a single bitstream, and is highly desirable in practical applications. We follow the same conceptual framework as in
-          (Ho et al., 2020; Theis et al., 2022). Crucially, however, we avoid Gaussian channel simulation and bits-back coding, by instead using universal quantization as follows:
+          (<a href="https://arxiv.org/abs/2006.11239" target="_blank">Ho et al., 2020</a>; <a href="https://arxiv.org/abs/2206.08889" target="_blank">Theis et al., 2022</a>). Crucially, however, we avoid Gaussian channel simulation and bits-back coding, by instead using universal quantization as follows:
         </p>
       </div>
         <img src="images/algorithm.png" style="height: auto; width: auto;"/>
